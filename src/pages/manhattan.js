@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import TableauReport from 'tableau-react';
 
 
-class Map extends Component { 
+class Manhattan extends Component { 
   render() {  
     const options = {
       hideTabs: true, 
@@ -13,6 +13,7 @@ class Map extends Component {
         
     return (  
       <div>  
+          <h1>B</h1>
         <TableauReport 
           url="http://public.tableau.com/views/AB_Data/newyorkcity"
           options={options}
@@ -22,4 +23,4 @@ class Map extends Component {
   }  
 }  
 
-export default Map;
+export default Manhattan;

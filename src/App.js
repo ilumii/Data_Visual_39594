@@ -1,26 +1,22 @@
-import React,{Component} from 'react';
-import TableauReport from 'tableau-react';
+import React, { Component } from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Map from './pages/map';
+import Manhattan from './pages/manhattan';
 
+class App extends Component {
+  render() {
+    const MapComponent = () => (<Map/>);
+    const ManhattanComponent = () => (<Manhattan/>);
 
-class App extends Component { 
-  
-  render() {  
-    const options = {
-      hideTabs: true,
-      hideToolbar: true
-      // All other vizCreate options are supported here, too
-      // They are listed here: https://onlinehelp.tableau.com/current/api/js_api/en-us/JavaScriptAPI/js_api_ref.htm#ref_head_9
-    };
-        
-    return (  
-      <div>  
-        <TableauReport 
-          url="http://public.tableau.com/views/AB_Data/newyorkcity"
-          options={options}
-        />
-      </div>  
-    )  
-  }  
-}  
+    return (
+      <Router>
+        <div>
+          <Route exact path="/" render={MapComponent} />
+          <Route exact path="/manhattan" render={ManhattanComponent} />
+        </div>
+      </Router>
+    )
+  }
+}
 
 export default App;
