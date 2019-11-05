@@ -11,7 +11,7 @@ class Brooklyn extends Component {
             // They are listed here: https://onlinehelp.tableau.com/current/api/js_api/en-us/JavaScriptAPI/js_api_ref.htm#ref_head_9
         };
         return (
-            <div className='Manhattan'>
+            <div className='Brooklyn'>
             <Link to='/'><button>Home</button></Link>
             <TableauReport
                 url="https://public.tableau.com/views/brooklyn_15729832869820/brooklyn"
