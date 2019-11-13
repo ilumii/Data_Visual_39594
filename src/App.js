@@ -6,7 +6,7 @@ import StatenIsland from './pages/statenisland';
 import Queens from './pages/queens';
 import Bronx from './pages/bronx';
 import Brooklyn from './pages/brooklyn';
-import Forecast from './pages/Forecast';
+import Forecast from './pages/forecast';
 import './App.css';
 
 class App extends Component { 
