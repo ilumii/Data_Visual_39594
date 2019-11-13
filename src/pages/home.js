@@ -30,6 +30,7 @@ class Home extends Component {
                 <Link to='/queens'><button style={{ margin: 5 }}>Queens</button></Link>
                 <Link to='bronx'><button style={{ margin: 5 }}>Bronx</button></Link>
                 <Link to='/staten_island'><button style={{ margin: 5 }}>Staten Island</button></Link>
+                <Link to='/forecast'><button style={{ margin: 5 }}>Forecast</button></Link>
                 <div>
                     {this.state.clicked ? (<div><TableauReport
                         url="http://public.tableau.com/views/AB_Data/newyorkcity"

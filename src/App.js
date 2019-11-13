@@ -6,6 +6,7 @@ import StatenIsland from './pages/statenisland';
 import Queens from './pages/queens';
 import Bronx from './pages/bronx';
 import Brooklyn from './pages/brooklyn';
+import Forecast from './pages/Forecast';
 import './App.css';
 
 class App extends Component { 
@@ -17,6 +18,7 @@ class App extends Component {
     const queensPageComponent = () => (<Queens/>);
     const bronxPageComponent = () => (<Bronx/>);
     const brooklynPageComponent = () => (<Brooklyn/>);
+    const ForecastPageComponent = () => (<Forecast/>);
     return (  
       <div className ="App">  
         <Router>
@@ -26,6 +28,7 @@ class App extends Component {
           <Route exact path='/queens' render={queensPageComponent}></Route>
           <Route exact path='/bronx' render={bronxPageComponent}></Route>
           <Route exact path='/brooklyn' render={brooklynPageComponent}></Route>
+          <Route exact path='/forecast' render={ForecastPageComponent}></Route>
         </Router>
       </div>  
     )  
