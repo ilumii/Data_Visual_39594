@@ -12,7 +12,7 @@ class Manhattan extends Component {
         };
         return (
             <div className='Manhattan'>
-            <Link to='/'><button>Home</button></Link>
+            <Link to='/'><button class="button">Home</button></Link>
             <TableauReport
                 url="https://public.tableau.com/views/manhattan/manhattan"
                 options={options}

@@ -12,7 +12,7 @@ class StatenIsland extends Component {
         };
         return (
             <div className='StatenIsland'>
-            <Link to='/'><button>Home</button></Link>
+            <Link to='/'><button class="button">Home</button></Link>
             <TableauReport
                 url="https://public.tableau.com/views/newyorkcitygraffitti_15729826673250/statenisland"
                 options={options}

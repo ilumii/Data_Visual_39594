@@ -12,7 +12,7 @@ class Bronx extends Component {
         };
         return (
             <div className='Bronx'>
-            <Link to='/'><button>Home</button></Link>
+            <Link to='/'><button class="button">Home</button></Link>
             <TableauReport
                 url="https://public.tableau.com/views/bronx/bronx"
                 options={options}

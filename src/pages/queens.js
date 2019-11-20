@@ -12,7 +12,7 @@ class Queens extends Component {
         };
         return (
             <div className='Queens'>
-            <Link to='/'><button>Home</button></Link>
+            <Link to='/'><button class="button">Home</button></Link>
             <TableauReport
                 url="https://public.tableau.com/views/queen/queen"
                 options={options}

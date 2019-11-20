@@ -24,13 +24,13 @@ class Home extends Component {
         return (
             <div className="Home">
                 <h1>AirBnB Data Visual</h1>
-                <button style={{ margin: 5 }} onClick={this.handleClick}>All Data - Questionable, click at own risk. Might blow up computer!</button>
-                <Link to='/manhattan'><button style={{ margin: 5 }}>Manhattan</button></Link>
-                <Link to='/brooklyn'><button style={{ margin: 5 }}>Brooklyn</button></Link>
-                <Link to='/queens'><button style={{ margin: 5 }}>Queens</button></Link>
-                <Link to='bronx'><button style={{ margin: 5 }}>Bronx</button></Link>
-                <Link to='/staten_island'><button style={{ margin: 5 }}>Staten Island</button></Link>
-                <Link to='/forecast'><button style={{ margin: 5 }}>Forecast</button></Link>
+                <button class="button" onClick={this.handleClick}><span>All Data - Questionable, click at own risk. Might blow up computer!</span></button>
+                <Link to='/manhattan'><button class="button"><span>Manhattan</span></button></Link>
+                <Link to='/brooklyn'><button class="button"><span>Brooklyn</span></button></Link>
+                <Link to='/queens'><button class="button"><span>Queens</span></button></Link>
+                <Link to='bronx'><button class="button"><span>Bronx</span></button></Link>
+                <Link to='/staten_island'><button class="button"><span>Staten Island</span></button></Link>
+                <Link to='/forecast'><button class="button"><span>Forecast</span></button></Link>
                 <div>
                     {this.state.clicked ? (<div><TableauReport
                         url="http://public.tableau.com/views/AB_Data/newyorkcity"

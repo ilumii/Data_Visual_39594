@@ -13,7 +13,7 @@ class Forecast extends Component {
         };
         return (
             <div className='Forecast'>
-            <Link to='/'><button>Home</button></Link>
+            <Link to='/'><button class="button">Home</button></Link>
                         <TableauReport
                 url="https://public.tableau.com/views/forcastofNYCairbnbpriceandavaliabilityforNYCandmanhattan/Sheet8?:display_count=y&:origin=viz_share_link"
                 options={options}
