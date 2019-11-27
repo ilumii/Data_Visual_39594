@@ -11,3 +11,5 @@ This project visualizes Airbnb's data of hosts in NYC in a map of NYC.
 Here's a link to the web page: (http://data-visual.herokuapp.com/)
 
  * This is our homepage: <img src="https://imgur.com/m9pn7FW.png" />
+ * All hosts in Manhattan: <img src="https://imgur.com/E1bKEL9.png" />
+ * When clicking on a specific host, it'll show the host's pricing, availability, minimum number of nights, etc... <img src="https://imgur.com/8lDYOod.png" />
