@@ -2,7 +2,10 @@
 This project visualizes Airbnb's data of hosts in NYC in a map of NYC.
 
 ## How to run:
-  * **Requirements**: Download node.js -> https://nodejs.org/en/download/
+**Requirements**: 
+  * Download node.js -> https://nodejs.org/en/download/
+
+**Instructions**:
   * git clone https://github.com/ilumii/Data_Visual_39594.git
   * cd Data_Visual_39594
   * npm install
