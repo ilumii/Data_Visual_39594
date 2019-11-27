@@ -23,7 +23,7 @@ class Home extends Component {
         };
         return (
             <div className="Home">
-                <h1>AirBnB Data Visual</h1>
+                <h1>AirBnB Data Visual of Hosts in NYC</h1>
                 <button class="button" onClick={this.handleClick}><span>All Data - Questionable, click at own risk. Might blow up computer!</span></button>
                 <Link to='/manhattan'><button class="button"><span>Manhattan</span></button></Link>
                 <Link to='/brooklyn'><button class="button"><span>Brooklyn</span></button></Link>
