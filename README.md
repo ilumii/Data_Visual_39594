@@ -10,4 +10,4 @@ This project visualizes Airbnb's data of hosts in NYC in a map of NYC.
 ## Our Webpage
 Here's a link to the web page: (http://data-visual.herokuapp.com/)
 
- * This is our homepage: <img src="https://imgur.com/m9pn7FW" />
+ * This is our homepage: <img src="https://imgur.com/m9pn7FW.png" />
